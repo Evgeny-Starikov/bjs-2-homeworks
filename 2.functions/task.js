@@ -28,7 +28,7 @@ getArrayParams(10, 10, 11, 20, 10);
 
 
 
-function sumElementsWorker(...arr) {
+function summElementsWorker(...arr) {
 
   if (arr.length === 0) {
     return 0;
@@ -40,7 +40,7 @@ function sumElementsWorker(...arr) {
     sum += arr[i];
   }
 
-  return summ;
+  return sum;
 
 }
 
