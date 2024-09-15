@@ -25,7 +25,7 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 	let am = parseInt(amount); //общая стоимость	
 	let count = parseInt(countMonths); //месяц окончания
 
-	let loanBody = amt - contr; //тело кредита
+	let loanBody = amt - con; //тело кредита
 
 	let payment = loanBody * (perCent + (perCent / (((1 + perCent) ** count) - 1))); //Ежемесячная оплата 
 
