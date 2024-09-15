@@ -28,7 +28,7 @@ getArrayParams(10, 10, 11, 20, 10);
 
 
 
-function summElementsWorker(...arr) {
+function sumElementsWorker(...arr) {
 
   if (arr.length === 0) {
     return 0;
